@@ -1,0 +1,34 @@
+/* Esta es la edicion de la parte Izquierda */
+
+.linea {
+    border: 2px dotted #000000; 
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+    }
+  
+img.derecha{
+    float: left;
+    margin-right: 15px;
+}
+div.reset {
+    clear: both;
+}
+
+.textoHotel{
+    text-align: justify;
+}
+
+.textoPrimeraImg{
+    text-align: justify;
+}
+
+/* Esta es la edicion de la parte Derecha */
+
+.textoColorComing{
+    color: red;
+}
+
+.imagenesDerechaArtist{
+    text-align: center;
+}

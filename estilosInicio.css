@@ -1,0 +1,61 @@
+/* Aqui empieza el acomo de la parte Izquierda de la pagina */
+
+.parteIzquierda{
+    max-width: 550px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 1px 20px 2px;
+    border-radius: 0px;
+    margin-top: 0;
+}
+
+.bordeImagenesIzquierda{
+    border-radius: 10px;
+}
+
+.imagenesIzquierdaArtist{
+    text-align: center;
+}
+
+img.izquierda{
+    float: left;
+    margin-right: 15px;
+}
+div.reset {
+    clear: both;
+}
+
+/* Aqui termina la edición de la parte Izquierda */
+/* Aqui empiza la parte Dercha de la pagina del cuerpo */
+
+.parteDerecha{
+    max-width: 550px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 1px 20px 2px;
+    margin-top: 0;
+    border-radius: 0px;
+}
+
+.textoColorComing{
+    color: red;
+}
+
+.imagenDerechaIphone{
+    text-align: center;
+}
+
+/* Aqui termina la edición de la parte Derecha */
+
+
+/* @media (max-width: 1150px){
+    .pruebaO, .prueba, .segundaPrteMedio, .primerTextoAbout, .segundoTextoFeatured, .textoUltimoIzquierda, .textoColorComing, .textoUltimoDerecha, .txt{
+        font-family: 'Roboto', sans-serif;
+    }
+} */
+
+/* @media (max-width: 800px){
+    .pruebaO, .prueba, .segundaPrteMedio, .primerTextoAbout, .segundoTextoFeatured, .textoUltimoIzquierda, .textoColorComing, .textoUltimoDerecha, .txt{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+} */

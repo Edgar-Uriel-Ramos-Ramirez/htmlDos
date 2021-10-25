@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(168, 140, 140, 0.575);
+}
+
+.result{
+    display: block;
+    width: 495px;
+    height: 60px;
+    background: rgb(212, 206, 206);
+    padding: 1px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.prendeApaga{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(206, 121, 121);
+    padding: 20px 20px 10px;
+    margin: auto;
+    border-radius: 1.5px;
+    text-align: center;
+}
+
+.cuerpo{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(146, 144, 144);
+    padding: 20px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.btnGlobal{
+    padding: 10px 50px 10px;
+    background-color: rgb(103, 106, 150);
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btnGlobal:hover {
+    background-color: rgb(155, 196, 144);
+  }
+
+
+
+.cuerpoDos{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(146, 144, 144);
+    padding: 1px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.cuerpoTres{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(146, 144, 144);
+    padding: 1px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.cuerpoCuatro{
+    max-width: 500px;
+    width: 100%;
+    background: rgb(146, 144, 144);
+    padding: 1px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.botonRegresar{
+    max-width: 500px;
+    width: 100%;
+    background: none;
+    padding: 1px 20px 20px;
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.letraColor{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

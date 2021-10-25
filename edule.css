@@ -1,0 +1,33 @@
+/* Aqui empieza la edicion de la parte Izquierda */
+
+.linea {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    height: 10px;
+    width: 101%;
+  }
+
+  
+img.derecha{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+}
+  
+  
+div.reset {
+    clear: both;
+}
+
+.textoPrimeraImg{
+    text-align: justify;
+}
+
+  /* Aqui empieza la edicion de la parte Derecha */
+  
+.textoColorComing{
+    color: red;
+}
+
+.imagenesDerechaArtist{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+/* Esta es la edicion de la parte Izquierda */
+.registroParteUno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registroTitulos{
+    max-width: 110px;
+    width: 25%;
+    background: none;
+    margin: 2px;
+    padding: 0px 1px 1px;
+}
+
+.cajasTextoRegistro{
+    max-width: 5px;
+    width: 100%;
+    background: none;
+    margin: 2px;
+    padding: 5px 5px 1px;
+}
+
+
+.radioButtons{
+    max-width: 300px;
+    width: 100%;
+    background: none;
+    margin: 2px;
+    padding: 1px 80px 1px;
+}
+
+.areaComentario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nombreComentario{
+    max-width: 4px;
+    width: 25%;
+    background: none;
+    margin: 2px;
+    padding: 0px 1px 1px;
+}
+
+.comentario{
+    max-width: 5px;
+    width: 100%;
+    background: none;
+    margin: 2px;
+    padding: 5px 80px 1px;
+}
+
+.cajita{
+    max-width: 300px;
+    width: 100%;
+    background: none;
+    margin: 2px;
+    padding: 1px 80px 1px;
+
+}
+
+/* Aqui empieza la parte Derecha */
+
+.imagenesDerechaArtist{
+    text-align: center;
+}

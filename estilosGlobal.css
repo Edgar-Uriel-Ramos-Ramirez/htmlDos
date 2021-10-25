@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+.cuerpoEntero{
+    max-width: 1100px;
+    width: 100%;
+    background: none;
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+
+}
+
+/* Primera parte del Logo */
+
+.body{
+    background-image: url(images/background_buildings.png);
+    background-size: cover;
+    background-size: 36rem;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.primeraParte{
+    max-width: 1100px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.imagenLogo{
+    margin: 25px auto;
+}
+
+.pruebaO{
+    max-width: 380px;
+    width: 50%;
+    background: #000000;
+
+}
+
+.prueba{
+    max-width: 430px;
+    width: 60%;
+    background: rgb(0, 0, 0);
+    margin: 1px auto;
+    padding: 1px 1px 1px;
+
+}
+
+.celdaPrimeroTextoPrincipal{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Aqui termina la Primera Parte */
+
+/* Aqui empieza la parte del Menu y la segunda parte */
+
+.contenedorMenu{
+    list-style: none;
+    padding: 1px 0px 1px;
+    background-image: radial-gradient(circle at 93.56% 13.45%, #ffd98e 0, #ffca82 16.67%, #feb571 33.33%, #f09a5b 50%, #e27f48 66.67%, #d8683e 83.33%, #d3573c 100%);
+    width: 100%;
+    max-width: 10000px;
+    margin-top: 0;
+}
+
+.segundaPrteMedio li a{
+    text-decoration: none;
+    color: black;
+    padding: 1px 20px 1px;
+}
+
+.segundaPrteMedio li{
+    display: inline-block;
+    text-align: center;
+}
+
+/* Aqui termina la parte del menu */
+/* Aqui se instera la imagen respectiva */
+
+.imagenDespuesMenu{
+    max-width: 1100px;
+    background: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+/* Aqui acaba el acomodo de la imagen */
+
+/* Esta parte hace que las dos columnas de la 
+   la parte Derecha e Izquierda se junten y formen solo una hoja */
+
+.Global{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Aqui empieza el acomo de la parte Izquierda de la pagina */
+
+.parteIzquierda{
+    max-width: 550px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 1px 20px 2px;
+    border-radius: 0px;
+    margin-top: 0;
+}
+
+/* Aqui termina la edición de la parte Izquierda */
+/* Aqui empiza la parte Dercha de la pagina del cuerpo */
+
+.parteDerecha{
+    max-width: 550px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 1px 20px 2px;
+    margin-top: 0;
+    border-radius: 0px;
+}
+
+.imagenDerechaIphone{
+    text-align: center;
+}
+
+/* Aqui termina la edición de la parte Derecha */
+/* Aqui empieza la edición de la parte de abajo */
+
+.ultimaParte{
+    max-width: 1100px;
+    width: 100%;
+    background: #2b2929;
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+.logo{
+    margin: 50px auto;
+}
+
+.pruebaAvrque{
+    max-width: 380px;
+    width: 60%;
+    background: #2b2929;
+    margin: 1px auto;
+    padding: 3px 2px 1px;
+
+}
+
+.pruebaDos{
+    max-width: 430px;
+    width: 100%;
+    background: #2b2929;
+    margin: 1px auto;
+    padding: 0px 25px 1px;
+
+}
+
+.texto{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1150px){
+    .pruebaO, .prueba, .segundaPrteMedio, .primerTextoAbout, .segundoTextoFeatured, .textoUltimoIzquierda, .textoColorComing, .textoUltimoDerecha, .txt, .textoPrimeraImg{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contenedorMenu{
+        width: auto;
+        max-width: 1000;
+    }
+
+    body, header, .Global, footer{
+        width: auto;
+    }
+
+    .parteIzquierda, .parteDerecha{
+        display: block;
+        width: auto;
+        max-width: 1150px;
+    }
+
+    .primeraParte{
+        max-width: 900;
+        width: auto;
+    }
+
+    .imagenLogo, .logo{
+        width: auto;
+    }
+
+    .pruebaO{
+        width: 100px;
+    }
+
+    .prueba{
+        width: 500px;
+    }
+    
+
+    .Global{
+        display: block;
+        flex-wrap: unset;
+    }
+
+    .cuerpoEntero{
+        width: auto;
+    }
+
+    .contenedorMenu{
+        width: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .pruebaO, .prueba, .segundaPrteMedio, .primerTextoAbout, .segundoTextoFeatured, .textoUltimoIzquierda, .textoColorComing, .textoUltimoDerecha, .txt, .textoPrimeraImg{
+        font-family: 'Roboto', sans-serif;
+        font-size: medium;
+    }
+
+    .primeraParte{
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .imagenLogo, .logo{
+        width: auto;
+    }
+
+    .pruebaO{
+        width: 200px;
+    }
+
+    .prueba{
+        width: 350px;
+    }
+
+    .contenedorMenu{
+        max-width: 9875px;
+        justify-content: center;
+    }
+}

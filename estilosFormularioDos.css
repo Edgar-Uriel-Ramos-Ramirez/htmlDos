@@ -1,0 +1,91 @@
+
+.celdaExtra .titulo{
+    max-width: 650px;
+    width: 100%;
+    background: rgb(240, 209, 168);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.celdaDosPagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 0px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaDosPagDos .formularioUnoPagDos {
+    margin: 10px auto;
+    padding: 0px 5px 10px;
+}
+
+.celdaDosPagDos .formularioUnoPagDos .otro {
+    width: 300px;
+    height: 5px;
+    background-color: none;
+    color: black;
+    padding-top: 20px;
+    border:none;
+    outline: 0px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.celdaTresPagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 15px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaCuatroPagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 15px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaCincoPagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 15px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaSeisPagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 15px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaSietePagDos {
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 15px 2px 10px;
+    border-radius: 10px;
+}
+
+.celdaOchoBtnPagDos{
+    max-width: 85px;
+    margin: 5px auto;
+}
+
+.celdaOchoBtnPagDos .boton .btn{
+    width: 80px;
+    height: 60px;
+    padding: 0px 8px 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(226, 225, 225);
+}

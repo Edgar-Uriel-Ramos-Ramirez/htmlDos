@@ -1,0 +1,51 @@
+/* Aqui empieza el diseño del texto */
+
+/* Aqui termina el diseño del texto */
+
+/* Aqui empieza el diseño de la parte izquierda con las lineas */
+
+.linea {
+  border: 2px dotted #000000; 
+  border-style: none none dotted; 
+  color: #fff; 
+  background-color: #fff;
+  }
+
+  
+img.derecha{
+  float: right;
+  margin-right: 15px;
+  border-radius: 10%;
+}
+
+
+div.reset {
+  clear: both;
+}
+
+/* Aqui empiza la parte Derecha */
+
+.imagenDerechaIphone{
+  text-align: center;
+}
+
+.imagenBorde{
+  border-radius: 10%;
+}
+
+.imagenesDerechaArt{
+  text-align: center;
+}
+
+.textoComing{
+  text-align: center;
+}
+
+.textoColorComing{
+  color: red;
+}
+
+.textoComing{
+  text-align: justify;
+}
+

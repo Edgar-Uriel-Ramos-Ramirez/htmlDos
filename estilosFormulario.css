@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #dbd7d0;
+}
+
+.celdaUno{
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 10px auto;
+    padding: 1px 20px 10px;
+    border-radius: 10px;
+}
+
+.celdaDos{
+    max-width: 650px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 1px 20px 10px;
+    border-radius: 10px;
+}
+
+.celdaDos .formularioUno {
+    margin: 10px auto;
+    padding: 1px 5px 10px;
+}
+
+.celdaDos .formularioUno .textR {
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    color: black;
+    padding-top: 20px;
+    border:none;
+    outline: 0px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.celdaTres{
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    margin: 10px auto;
+    padding: 15px 20px 1px;
+    border-radius: 10px;
+}
+
+.formularioDos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.celdaTres .formularioUno {
+    margin: 20px auto;
+    padding: 1px 5px 10px;
+}
+
+.celdaTres .autoUno{
+    max-width: 270px;
+    width: 100%;
+    background: rgb(226, 225, 225);
+    margin: 10px auto;
+    padding: 15px 14px 15px;
+}
+
+.celdaTres .autoDos{
+    max-width: 270px;
+    width: 100%;
+    background: rgb(226, 225, 225);
+    margin: 10px auto;
+    padding: 15px 14px 15px;
+}
+
+.celdaTres .autoTres{
+    max-width: 270px;
+    width: 100%;
+    background: rgb(226, 225, 225);
+    margin: 10px auto;
+    padding: 15px 14px 15px;
+}
+
+.celdaCuatroBtn{
+    max-width: 85px;
+    margin: 5px auto;
+}
+
+.celdaCuatroBtn .boton .btn{
+    width: 80px;
+    height: 60px;
+    padding: 0px 8px 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(226, 225, 225);
+}
+

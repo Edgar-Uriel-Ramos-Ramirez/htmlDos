@@ -1,0 +1,185 @@
+.body{
+    background-color: rgba(189, 173, 173, 0.575);
+}
+
+@media screen and (max-width: 1980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 1024px;
+}
+
+.imagen{
+    margin: 18px auto;
+    border-radius: 90px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* Aqui empieza la modificación de los estilos de todo el texto */ 
+
+.titulos{
+    text-align: center;
+    font-size: 180%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulosDosE{
+    text-align: center;
+    color: #fff;
+    font-size: 180%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulosDos{
+    text-align: center;
+    font-size: 198%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subTitulos{
+    text-align: center;
+    font-size: 160%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: text-bottom;
+}
+
+.subTitulosDosE{
+    color: #fff;
+    text-align: center;
+    font-size: 160%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: text-bottom;
+
+}
+
+.miNombre{
+    font-size: 260%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: text-bottom;
+
+}
+
+.textoGeneral{
+    text-align: justify;
+    color: #fff;
+    font-size: 108%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoGeneralDos{
+    text-align: justify;
+    font-size: 120%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto li{
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoDos li{
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.estiloUltimo li{
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.estiloUltimo li a{   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.color{
+    font-weight: 400;
+    color: rgb(207, 15, 8);
+}
+
+.Global{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Aqui empieza la modificación de los estilos de la parte de la fotografía y el texto de la parte de abajo */ 
+
+.PrimeraParte{
+    max-width: 230px;
+    width: 100%;
+    background: rgb(78, 76, 76);
+    margin: 10px left;
+    padding: 1px 20px 2px;
+    border-radius: 10px;
+}
+
+.DtPersoanles{
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+    background: rgb(216, 208, 208);
+    padding: 1px 20px 40px;
+    border-radius: 10px;
+}
+
+.linea {
+    border-bottom:solid 2px rgb(0, 0, 0);
+    height: 10px;
+    width: 101%;
+  }
+
+
+/* Aqui empieza la parte donde se junta la parte izquierda con la derecha */ 
+
+.inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* Aqui empieza la segunda parte */ 
+.SegundaParte{
+    max-width: 1190px;
+    width: 100%;
+    background: #fff;
+    margin: 10px right;
+    padding: 1px 15px 0px;
+    border-radius: 10px;
+}
+
+.grupoEduIdo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Aqui empieza la ultima parte */ 
+
+.HabCompRef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

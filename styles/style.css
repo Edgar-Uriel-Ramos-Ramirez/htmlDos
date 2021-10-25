@@ -1,0 +1,56 @@
+body{
+  background-image: radial-gradient(circle at 50% -3.03%, #90b4a5 0, #82afa1 12.5%, #73aa9d 25%, #61a49a 37.5%, #4c9d97 50%, #319695 62.5%, #009095 75%, #008a95 87.5%, #008496 100%);
+}
+img{
+  height: 720px;
+  width: auto;
+}
+
+div{
+  justify-content: center;
+  display: flex;
+}
+
+body{
+  vertical-align: middle;
+}
+
+.carrusel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.imagen {
+  display: none;
+} 
+
+.anteriorCarrusel, .siguienteCarrusel {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: 340px;
+  margin-bottom: 340px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 3px 0 0 3px;
+  user-select: none;
+  background-color: #717171;
+}
+
+.siguienteCarrusel {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.anteriorCarrusel:hover, .siguienteCarrusel:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
