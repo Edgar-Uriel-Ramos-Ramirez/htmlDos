@@ -43,12 +43,12 @@
     <article class="contenedorMenu">
         <article class="segundaPrteMedio">
                     <ul>
-                        <li><a href="inicioRoux.html">HOME</a></li>
-                        <li><a href="artist.html">ARTIST</a></li>
-                        <li><a href="edule.html">SCHEDULE</a></li>
-                        <li><a href="venue.html">VENUE/TRAVEL</a></li>
-                        <li><a href="register.html">REGISTER</a></li>
-                        <li><a href="index.html">REGRESAR PAGINA INICIO</a></li>
+                        <li><a href="inicioRoux.php">HOME</a></li>
+                        <li><a href="artist.php">ARTIST</a></li>
+                        <li><a href="edule.php">SCHEDULE</a></li>
+                        <li><a href="venue.php">VENUE/TRAVEL</a></li>
+                        <li><a href="register.php">REGISTER</a></li>
+                        <li><a href="index.php">REGRESAR PAGINA INICIO</a></li>
                     </ul>
         </article>
     </article>

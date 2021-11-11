@@ -133,7 +133,7 @@
                 <td align="center" class="Hora">6</td>
             </tr>
             <tr>
-                <td colspan="6" align="center" class="index"><button><a href="index.html">REGRESAR A LA PAGINA PRINCIPAL</a></button></td>
+                <td colspan="6" align="center" class="index"><button><a href="index.php">REGRESAR A LA PAGINA PRINCIPAL</a></button></td>
             </tr>
         </tfoot>
 

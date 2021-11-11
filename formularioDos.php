@@ -9,7 +9,7 @@
     <title>Survey for Product X</title>
 </head>
 <body>
-    <form action="index.html">
+    <form action="index.php">
         <div class="celdaUno">
             <div class="titulo">
                 <h1>Survey for Product X</h1>

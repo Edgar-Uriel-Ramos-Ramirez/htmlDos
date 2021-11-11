@@ -40,7 +40,7 @@
                             <li><a href="#ArquitecturaM" class="menuTitulos">Arquitectura Cliente-Servidor</a></li>
                             <li><a href="#FrontEndM" class="menuTitulos">Front-End</a></li>
                             <li><a href="#BackEndM" class="menuTitulos">Back-End</a></li>
-                            <li><a href="index.html" class="menuTitulos">Página Principal</a></li>
+                            <li><a href="index.php" class="menuTitulos">Página Principal</a></li>
                         </ul>
                 </nav>
             </section>

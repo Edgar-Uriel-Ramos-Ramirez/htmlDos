@@ -34,7 +34,7 @@
         </div>
         <br>
         <div class="botonPrincipal">
-            <button><a href="index.html" class="letraBoton">Página Principal</a></button>
+            <button><a href="index.php" class="letraBoton">Página Principal</a></button>
         </div>
     </main>
     

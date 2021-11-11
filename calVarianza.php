@@ -8,7 +8,7 @@
 </head>
 <body>
     <script src="actividadDosDos.js"></script>
-    <button><a href="index.html">Pagina Principal</a></button>
+    <button><a href="index.php">Pagina Principal</a></button>
     
 </body>
 </html>

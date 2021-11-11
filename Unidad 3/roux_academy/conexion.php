@@ -1,8 +1,8 @@
 <?php
     $bd = 'registrousuarios';
     $servidor = 'localhost';
-    $usuario='root';
-    $contrasena='';
+    $usuario='admin';
+    $contrasena='kramer1605';
     
     
     $conexion=mysqli_connect($servidor,$usuario,$contrasena,$bd);

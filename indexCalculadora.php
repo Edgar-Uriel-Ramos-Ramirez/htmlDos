@@ -47,7 +47,7 @@
                 </div>
                 <br>
                 <div class="problemas">
-                    <button class="colorBtn"><a href="index.html" class="letraEstilo">Página Principal</a></button>
+                    <button class="colorBtn"><a href="index.php" class="letraEstilo">Página Principal</a></button>
                 </div>
     
             </div>

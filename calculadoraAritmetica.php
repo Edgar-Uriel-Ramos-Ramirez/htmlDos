@@ -49,7 +49,7 @@
 
     <div class="botonRegresar">
         <br>
-        <button><a href="index.html" class="letraColor">Página Principal</a></button>
+        <button><a href="index.php" class="letraColor">Página Principal</a></button>
     </div>
 
     <script src="scriptCalcAritmetica.js"></script>

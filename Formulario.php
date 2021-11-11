@@ -8,7 +8,7 @@
     <title>Survey for Product X</title>
 </head>
 <body>
-    <form action="formularioDos.html">
+    <form action="formularioDos.php">
     <div class="celdaUno">
         <div class="titulo">
             <h1>Survey for Product X</h1>
