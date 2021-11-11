@@ -219,7 +219,7 @@
                         
                             <section class="estiloUltimo">
                                 <ul style="list-style-type: circle;">
-                                    <li ><a href="u3/calcIMC/index.php" class="textoDos">Calculadora IMC aplicando PHP</a></li>
+                                    <li ><a href="Unidad 3/calcIMC/index.php" class="textoDos">Calculadora IMC aplicando PHP</a></li>
                                     <li ><a href="Unidad 3/include/index.php" class="textoDos">Página con atributos INCLUDE y REQUIERE </a></li>
                                     <li ><a href="Unidad 3/roux_academy/index.php" class="textoDos">Roux Academy funcional con Base de Datos</a></li>
                                     <label class="color">(Dar click en los nombres para ver su contenido)</label>
