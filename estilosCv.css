@@ -2,18 +2,6 @@
     background-color: rgba(189, 173, 173, 0.575);
 }
 
-@media screen and (max-width: 1980px){
-    #contenedor{
-        width: 90%;
-    }
-    #contenido{
-        width: 60%;
-    }
-    #barra_lateral{
-        width:30%;
-    }
-}
-
 #contenedor {
     width: 90%;
     max-width: 1024px;
@@ -117,6 +105,10 @@
     color: rgb(207, 15, 8);
 }
 
+.estiloultimo .textoDos ul li a:hover{
+    background-color: #3ecc56;
+}
+
 .Global{
     display: flex;
     flex-wrap: wrap;
@@ -183,3 +175,53 @@
     justify-content: space-evenly;
 }
 
+
+@media (max-width: 1300px){
+    .texto .textoDos .textoGeneral .textoGeneralDos .textoUltimoDerecha .textoUltimoIzquierda .titulos .titulosDos .titulosDosE .subTitulos .subTitulosDosE .txt .miNombre{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .PrimeraParte{
+        width: auto;
+        max-width: 250px;
+    }
+
+    .DtPersoanles{
+        width: auto;
+        max-width: 250px;
+    }
+
+    .SegundaParte{
+        width: auto;
+        max-width: 900px;
+    }
+
+    body, header, .Global, article{
+        width: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .texto .textoDos .textoGeneral .textoGeneralDos .textoUltimoDerecha .textoUltimoIzquierda .titulos .titulosDos .titulosDosE .subTitulos .subTitulosDosE .txt .miNombre{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .PrimeraParte{
+        width: auto;
+        max-width: 250px;
+    }
+
+    .DtPersoanles{
+        width: auto;
+        max-width: 250px;
+    }
+
+    .SegundaParte{
+        width: auto;
+        max-width: 400px;
+    }
+
+    body, header, .Global, article{
+        width: auto;
+    }
+}

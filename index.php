@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -205,13 +205,25 @@
                         
                         <section class="estiloUltimo">
                             <ul style="list-style-type: circle;">
-                                <li ><a href="Horario.html">Horario</a></li>
-                                <li ><a href="Formulario.html">Formulario Web </a></li>
-                                <li ><a href="inicioRoux.html">Roux Academy </a></li>
-                                <li ><a href="BlogPersonal.html">Blog </a></li>
+                                <li ><a href="Horario.php" class="textoDos">Horario</a></li>
+                                <li ><a href="Formulario.php" class="textoDos">Formulario Web </a></li>
+                                <li ><a href="inicioRoux.php" class="textoDos">Roux Academy </a></li>
+                                <li ><a href="BlogPersonal.php" class="textoDos">Blog </a></li>
                                 <label class="color">(Dar click en los nombres para ver su contenido)</label>
                             </ul>
     
+                        </section>
+                        <h2 class="titulos" >UNIDAD 3</h2>
+        
+                        <section class="estiloUltimo">
+                        
+                            <section class="estiloUltimo">
+                                <ul style="list-style-type: circle;">
+                                    <li ><a href="u3/calcIMC/index.php" class="textoDos">Calculadora IMC aplicando PHP</a></li>
+                                    <li ><a href="Unidad 3/include/index.php" class="textoDos">Página con atributos INCLUDE y REQUIERE </a></li>
+                                    <li ><a href="Unidad 3/roux_academy/index.php" class="textoDos">Roux Academy funcional con Base de Datos</a></li>
+                                    <label class="color">(Dar click en los nombres para ver su contenido)</label>
+                                </ul>
                         </section>
                     </article>
                 
@@ -222,15 +234,16 @@
                         
                             <section class="estiloUltimo">
                                 <ul style="list-style-type: circle;">
-                                    <li ><a href="calConsumoKwh.html">Calculadora de KWH consumidos </a></li>
-                                    <li ><a href="calVarianza.html">Calcular Varianza </a></li>
-                                    <li ><a href="indexCalculadora.html">Calculadora Basica </a></li>
-                                    <li ><a href="calIMC.html">Calculadora IMC </a></li>
-                                    <li ><a href="calculadoraAritmetica.html">Calculadora Aritmetica </a></li>
-                                    <li ><a href="carrusel.html">Carusel de Imagenes</a></li>
+                                    <li ><a href="calConsumoKwh.php" class="textoDos">Calculadora de KWH consumidos </a></li>
+                                    <li ><a href="calVarianza.php" class="textoDos">Calcular Varianza </a></li>
+                                    <li ><a href="indexCalculadora.php" class="textoDos">Calculadora Basica </a></li>
+                                    <li ><a href="calIMC.php" class="textoDos">Calculadora IMC </a></li>
+                                    <li ><a href="calculadoraAritmetica.php" class="textoDos">Calculadora Aritmetica </a></li>
+                                    <li ><a href="carrusel.php" class="textoDos">Carrusel de Imagenes</a></li>
                                     <label class="color">(Dar click en los nombres para ver su contenido)</label>
                                 </ul>
                         </section>
+                    </section>
                         <br><br><br><br>
                     </article>
                 </article>
@@ -241,4 +254,4 @@
 </main>
 
 </body>
-</html>
+</php>
